@@ -1,4 +1,4 @@
 #!/bin/bash
-NAME="hasmatha"
+NAME=hasmatha
 AGE=26
 echo "my name is $NAME,my age $AGE"
