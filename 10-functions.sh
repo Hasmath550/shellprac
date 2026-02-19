@@ -5,6 +5,7 @@ USERID=$(id -u)     #checking root user
 if [ $USERID -ne 0 ]; then
 
  echo "run with root user access"
+ 
  exit 1
  
 fi
@@ -12,7 +13,9 @@ fi
 VALIDATE(){
     if [ $1 -ne 0 ]; then
      echo "$2 is failure"
+
      exit 1
+
     else 
      echo "$2 is success"
     fi
