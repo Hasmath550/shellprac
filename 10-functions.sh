@@ -4,13 +4,16 @@
 USERID=$(id -u)     #checking root user 
 
 VALIDATE(){
-    if [ $1 -ne 0 ]; then
+    if [ $0 -ne 0 ]; then
+
      echo "$2 is failure"
 
      exit 1
 
-    else 
+    else
+
      echo "$2 is success"
+
     fi
 
 }
