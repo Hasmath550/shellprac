@@ -11,9 +11,10 @@ fi
 
 VALIDATE(){
     if [ $1 -ne 0 ]; then
-     echo "$2,,is failure"
+     echo "$2 is failure"
+     exit 1
     else 
-     echo "s2 is success"
+     echo "$2 is success"
     fi
 
 }
