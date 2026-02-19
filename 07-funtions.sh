@@ -2,4 +2,6 @@
 add(){
     sum=$(($1+$2))
     echo "sum is $sum" #add $1 and $2
+
     }
+    add $1 $2
