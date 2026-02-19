@@ -9,7 +9,7 @@ if [ $USERID -ne 0 ]; then
 fi
 
 VALIDATE(){
-    if [$1 -ne 0]; then
+    if [ $1 -ne 0 ]; then
      echo $2,,is failure
     else 
      echo "s2 is success"
