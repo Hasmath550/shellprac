@@ -1,6 +1,6 @@
 #!/bin/bash
-$1=10
-$2=30
+ arg1=$1
+ arg2=$2
 add(){
     sum=$(($1+$2))
     echo "sum is $sum" #add $1 and $2
